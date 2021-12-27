@@ -1,9 +1,9 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: url(images/bg.jpg) no-repeat;
-    background-size: 1920px 1080px;
-    background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  background: url(images/bg.jpg) no-repeat;
+  background-size: 1920px 1080px;
+  background-attachment: fixed;
   }
   .box{
     width: 450px;
@@ -11,28 +11,21 @@ body{
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
   }
 
-  .box_btn{
-    width: 450px;
+  .box-image{
+    width: 800px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 0.5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
-  }
-
-  .btn{
-    width: 200px;
-    height: 50px;
-    align-self: auto;
-    background: none;
-    border: none;
+    object-position: center;
   }
 
   .box2{
@@ -81,5 +74,10 @@ body{
   }
   .box li a:hover{
     color: #b9b9b9;
+  }
+
+  .chernit showcase{
+    image-rendering: auto;
+    
   }
   

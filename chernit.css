@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/bg.jpg) no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.25%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+  .boxbutton{
+    width: 450px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+  .btn{
+    width: 200px;
+    height: 50px;
+    align-self: auto;
+    background: none;
+    border: none;
+  }
+
+  .box2{
+    width: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+  .box-image{
+    width: 800px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    object-position: center;
+  }
+
+  .boxlink{
+    width: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    object-position: center;
+  }
+
+
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  
+
+
+
+  .btn{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn1,.btn2{
+    color: #3498db;
+  }
+  .btn3,.btn4{
+    color: #fff;
+  }
+  .btn1:hover,.btn2:hover{
+    color: #fff;
+  }
+  .btn3:hover,.btn4:hover{
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0, 0.4);;
+    z-index: -1;
+    transition: 0.8s;
+  }
+  .btn1::before,.btn3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+  }
+  .btn2::before,.btn4::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+  }
+  .btn3::before,.btn4::before{
+    height: 180%;
+  }
+  .btn1:hover::before,.btn2:hover::before{
+    height: 180%;
+  }
+  .btn3:hover::before,.btn4:hover::before{
+    height: 0%;
+  }
+  
